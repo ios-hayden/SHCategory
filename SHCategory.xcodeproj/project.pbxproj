@@ -17,8 +17,8 @@
 		BC251E9E1B4116B00013EE26 /* NSString+Convert.m in Sources */ = {isa = PBXBuildFile; fileRef = BC251E9D1B4116B00013EE26 /* NSString+Convert.m */; };
 		BC251EA11B411F7C0013EE26 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BC251EA01B411F7C0013EE26 /* NSString+Utils.m */; };
 		BC251EA31B41218F0013EE26 /* SHNSStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC251EA21B41218F0013EE26 /* SHNSStringTests.m */; };
-		BC251EA71B4128BB0013EE26 /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC251EA61B4128BB0013EE26 /* NSDictionary+Additions.m */; };
 		BC251EA91B4139C40013EE26 /* SHNSDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC251EA81B4139C40013EE26 /* SHNSDictionaryTests.m */; };
+		BC251EAC1B414D5E0013EE26 /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC251EAB1B414D5E0013EE26 /* NSDictionary+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +51,9 @@
 		BC251E9F1B411F7C0013EE26 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Utils.h"; path = "Category/NSString/NSString+Utils.h"; sourceTree = SOURCE_ROOT; };
 		BC251EA01B411F7C0013EE26 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Utils.m"; path = "Category/NSString/NSString+Utils.m"; sourceTree = SOURCE_ROOT; };
 		BC251EA21B41218F0013EE26 /* SHNSStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNSStringTests.m; sourceTree = "<group>"; };
-		BC251EA51B4128BB0013EE26 /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Additions.h"; sourceTree = "<group>"; };
-		BC251EA61B4128BB0013EE26 /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Additions.m"; sourceTree = "<group>"; };
 		BC251EA81B4139C40013EE26 /* SHNSDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNSDictionaryTests.m; sourceTree = "<group>"; };
+		BC251EAA1B414D5E0013EE26 /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Additions.h"; path = "Category/NSDictionary/NSDictionary+Additions.h"; sourceTree = SOURCE_ROOT; };
+		BC251EAB1B414D5E0013EE26 /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Additions.m"; path = "Category/NSDictionary/NSDictionary+Additions.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,8 +168,8 @@
 		BC251EA41B41289C0013EE26 /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				BC251EA51B4128BB0013EE26 /* NSDictionary+Additions.h */,
-				BC251EA61B4128BB0013EE26 /* NSDictionary+Additions.m */,
+				BC251EAA1B414D5E0013EE26 /* NSDictionary+Additions.h */,
+				BC251EAB1B414D5E0013EE26 /* NSDictionary+Additions.m */,
 			);
 			name = NSDictionary;
 			sourceTree = "<group>";
@@ -276,8 +276,8 @@
 			files = (
 				BC251E941B40E10D0013EE26 /* UIView+Frame.m in Sources */,
 				BC251EA11B411F7C0013EE26 /* NSString+Utils.m in Sources */,
-				BC251EA71B4128BB0013EE26 /* NSDictionary+Additions.m in Sources */,
 				BC251E731B40DFF20013EE26 /* ViewController.m in Sources */,
+				BC251EAC1B414D5E0013EE26 /* NSDictionary+Additions.m in Sources */,
 				BC251E9E1B4116B00013EE26 /* NSString+Convert.m in Sources */,
 				BC251E701B40DFF20013EE26 /* AppDelegate.m in Sources */,
 				BC251E6D1B40DFF20013EE26 /* main.m in Sources */,
@@ -478,6 +478,7 @@
 				BC251E8C1B40DFF20013EE26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC251E8D1B40DFF20013EE26 /* Build configuration list for PBXNativeTarget "SHCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +487,7 @@
 				BC251E8F1B40DFF20013EE26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
