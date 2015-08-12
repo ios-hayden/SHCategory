@@ -19,6 +19,7 @@
 		BC251EA31B41218F0013EE26 /* SHNSStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC251EA21B41218F0013EE26 /* SHNSStringTests.m */; };
 		BC251EA91B4139C40013EE26 /* SHNSDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC251EA81B4139C40013EE26 /* SHNSDictionaryTests.m */; };
 		BC251EAC1B414D5E0013EE26 /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC251EAB1B414D5E0013EE26 /* NSDictionary+Additions.m */; };
+		BCB3939E1B7AD81F009A63FC /* UIWindow+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB3939D1B7AD81F009A63FC /* UIWindow+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		BC251EA81B4139C40013EE26 /* SHNSDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNSDictionaryTests.m; sourceTree = "<group>"; };
 		BC251EAA1B414D5E0013EE26 /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Additions.h"; path = "Category/NSDictionary/NSDictionary+Additions.h"; sourceTree = SOURCE_ROOT; };
 		BC251EAB1B414D5E0013EE26 /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Additions.m"; path = "Category/NSDictionary/NSDictionary+Additions.m"; sourceTree = SOURCE_ROOT; };
+		BCB3939C1B7AD81F009A63FC /* UIWindow+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Additions.h"; sourceTree = "<group>"; };
+		BCB3939D1B7AD81F009A63FC /* UIWindow+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,7 @@
 		BC251E901B40E0C60013EE26 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				BCB3939B1B7AD81F009A63FC /* UIWindow */,
 				BC251EA41B41289C0013EE26 /* NSDictionary */,
 				BC251E951B40E7140013EE26 /* NSString */,
 				BC251E911B40E0D10013EE26 /* UIView */,
@@ -173,6 +177,16 @@
 			);
 			name = NSDictionary;
 			sourceTree = "<group>";
+		};
+		BCB3939B1B7AD81F009A63FC /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				BCB3939C1B7AD81F009A63FC /* UIWindow+Additions.h */,
+				BCB3939D1B7AD81F009A63FC /* UIWindow+Additions.m */,
+			);
+			name = UIWindow;
+			path = Category/UIWindow;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -281,6 +295,7 @@
 				BC251E9E1B4116B00013EE26 /* NSString+Convert.m in Sources */,
 				BC251E701B40DFF20013EE26 /* AppDelegate.m in Sources */,
 				BC251E6D1B40DFF20013EE26 /* main.m in Sources */,
+				BCB3939E1B7AD81F009A63FC /* UIWindow+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
