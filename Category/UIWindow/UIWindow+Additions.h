@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIWindow (Additions)
-@property (nonatomic, strong) UIViewController *visibleViewController;
-@property (nonatomic, strong) UINavigationController *visibleNavigationController;
+@property (nonatomic, strong, readonly) UIViewController *visibleViewController;
+@property (nonatomic, strong, readonly) UINavigationController *visibleNavigationController;
 @end

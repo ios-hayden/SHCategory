@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SHCategory"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Some useful categories for iOS"
 
   s.description  = <<-DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios, "5.0"
 
-  s.source       = { :git => "ssh://gitolite@wccios.alpha.wochacha.com:65522/SHCategory.git", :tag => "1.0.1" }
+  s.source       = { :git => "ssh://gitolite@wccios.alpha.wochacha.com:65522/SHCategory.git", :tag => "1.0.2" }
 
   s.source_files  = "Category/**/*.{h,m}"
   s.public_header_files = "Category/**/*.h"
