@@ -11,4 +11,5 @@
 @interface UIWindow (Additions)
 @property (nonatomic, strong, readonly) UIViewController *visibleViewController;
 @property (nonatomic, strong, readonly) UINavigationController *visibleNavigationController;
+@property (nonatomic, strong, readonly) UITabBarController *visibleTabBarController;
 @end

@@ -19,6 +19,8 @@
 		BC251EA31B41218F0013EE26 /* SHNSStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC251EA21B41218F0013EE26 /* SHNSStringTests.m */; };
 		BC251EA91B4139C40013EE26 /* SHNSDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC251EA81B4139C40013EE26 /* SHNSDictionaryTests.m */; };
 		BC251EAC1B414D5E0013EE26 /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC251EAB1B414D5E0013EE26 /* NSDictionary+Additions.m */; };
+		BC8D044C1C61A1B500C8A1AD /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8D044B1C61A1B500C8A1AD /* UIView+Utils.m */; };
+		BC8D04521C61DE7200C8A1AD /* UIView+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8D04511C61DE7200C8A1AD /* UIView+Style.m */; };
 		BCB3939E1B7AD81F009A63FC /* UIWindow+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB3939D1B7AD81F009A63FC /* UIWindow+Additions.m */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,10 @@
 		BC251EA81B4139C40013EE26 /* SHNSDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNSDictionaryTests.m; sourceTree = "<group>"; };
 		BC251EAA1B414D5E0013EE26 /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Additions.h"; path = "Category/NSDictionary/NSDictionary+Additions.h"; sourceTree = SOURCE_ROOT; };
 		BC251EAB1B414D5E0013EE26 /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Additions.m"; path = "Category/NSDictionary/NSDictionary+Additions.m"; sourceTree = SOURCE_ROOT; };
+		BC8D044A1C61A1B500C8A1AD /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Utils.h"; path = "Category/UIView/UIView+Utils.h"; sourceTree = SOURCE_ROOT; };
+		BC8D044B1C61A1B500C8A1AD /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Utils.m"; path = "Category/UIView/UIView+Utils.m"; sourceTree = SOURCE_ROOT; };
+		BC8D04501C61DE7200C8A1AD /* UIView+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Style.h"; path = "Category/UIView/UIView+Style.h"; sourceTree = SOURCE_ROOT; };
+		BC8D04511C61DE7200C8A1AD /* UIView+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Style.m"; path = "Category/UIView/UIView+Style.m"; sourceTree = SOURCE_ROOT; };
 		BCB3939C1B7AD81F009A63FC /* UIWindow+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Additions.h"; sourceTree = "<group>"; };
 		BCB3939D1B7AD81F009A63FC /* UIWindow+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,10 +147,10 @@
 		BC251E901B40E0C60013EE26 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				BCB3939B1B7AD81F009A63FC /* UIWindow */,
-				BC251EA41B41289C0013EE26 /* NSDictionary */,
 				BC251E951B40E7140013EE26 /* NSString */,
+				BCB3939B1B7AD81F009A63FC /* UIWindow */,
 				BC251E911B40E0D10013EE26 /* UIView */,
+				BC251EA41B41289C0013EE26 /* NSDictionary */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -154,6 +160,10 @@
 			children = (
 				BC251E921B40E10D0013EE26 /* UIView+Frame.h */,
 				BC251E931B40E10D0013EE26 /* UIView+Frame.m */,
+				BC8D044A1C61A1B500C8A1AD /* UIView+Utils.h */,
+				BC8D044B1C61A1B500C8A1AD /* UIView+Utils.m */,
+				BC8D04501C61DE7200C8A1AD /* UIView+Style.h */,
+				BC8D04511C61DE7200C8A1AD /* UIView+Style.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -291,10 +301,12 @@
 				BC251E941B40E10D0013EE26 /* UIView+Frame.m in Sources */,
 				BC251EA11B411F7C0013EE26 /* NSString+Utils.m in Sources */,
 				BC251E731B40DFF20013EE26 /* ViewController.m in Sources */,
+				BC8D044C1C61A1B500C8A1AD /* UIView+Utils.m in Sources */,
 				BC251EAC1B414D5E0013EE26 /* NSDictionary+Additions.m in Sources */,
 				BC251E9E1B4116B00013EE26 /* NSString+Convert.m in Sources */,
 				BC251E701B40DFF20013EE26 /* AppDelegate.m in Sources */,
 				BC251E6D1B40DFF20013EE26 /* main.m in Sources */,
+				BC8D04521C61DE7200C8A1AD /* UIView+Style.m in Sources */,
 				BCB3939E1B7AD81F009A63FC /* UIWindow+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -412,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

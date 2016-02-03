@@ -24,6 +24,15 @@
     return vc.navigationController;
 }
 
+- (UITabBarController*)visibleTabBarController
+{
+    UIViewController *vc = self.visibleViewController;
+    if ([vc isKindOfClass:[UITabBarController class]]) {
+        return (UITabBarController*)vc;
+    }
+    return vc.tabBarController;
+}
+
 + (UIViewController *) getVisibleViewControllerFrom:(UIViewController *) vc {
     if ([vc isKindOfClass:[UINavigationController class]]) {
         return [UIWindow getVisibleViewControllerFrom:[((UINavigationController *) vc) visibleViewController]];
